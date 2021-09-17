@@ -1,3 +1,6 @@
+*{
+	box-sizing: border-box;
+}
 body{
 	border: 5px;
 	border-color: black;
@@ -34,6 +37,7 @@ h2{
 h3{
 	text-transform: uppercase;
 	color: black;
+	padding-left: 0px;
 }
 a:link, a:visited{
 	color: black;
@@ -43,6 +47,7 @@ a:hover, a:active{
 }
 ul{
 	list-style-type: square;
+	padding-left: 0px;
 }
 button{
 	width: 100%;
@@ -53,6 +58,7 @@ button{
 	cursor: pointer;
 	border:none;
 	font-size: 30px;
+	margin-top: -.5%;
 }
 button:hover{
 	background-color: white;
@@ -61,14 +67,21 @@ button:hover{
 }
 .price{
 	font-size:20px;
+	float: left;
+	width: 50%;
 }
 #FS{
 	font-size:10px;
 	text-transform: uppercase;
 	color: #999;
 	font-weight: bold;
+	float: right;
+	width: 50%;
+	margin-top:25px;
 }
-
+.ready,.more,.col-pat{
+	float: left;
+}
 span{
 	margin:2px 5px;
 	padding: 2px 12px;
@@ -90,4 +103,17 @@ span:nth-child(4) {
 }
 span:nth-child(5) {
   background: green;
+}
+
+.section-img{
+	float: left;
+	width: 300px;
+}
+.section-info{
+	float: left;
+	width: 300px;
+}
+.section-product{
+	float:right;
+	width: 300px;
 }
